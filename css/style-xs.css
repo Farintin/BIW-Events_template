@@ -1,0 +1,507 @@
+@media (max-width: 480px) {
+    header section#first {
+        top: 29%;
+    }
+    header section#first main h1 {
+        font-size: 27px;
+    }
+    header section#first main h1 span.heading {
+        font-size: 21px;
+    }
+    header section#first main p {
+        padding: 0px 3vw;
+    }
+
+
+
+    header section#second {
+        top: 138%;
+    }
+
+    header section#second .wrapper .col-2 .form {
+        width: 100%;
+        max-width: 330px;
+    }
+    header section#second .wrapper .col-2 .header {
+        padding: 15px;
+    }
+    header section#second .wrapper .col-2 .header p {
+        font-size: 10px;
+    }
+    header section#second .wrapper .col-2 .form .inputs {
+        padding: 8px 15px 0;
+    }
+    header section#second .wrapper .col-2 .form input {
+        padding: 8px 5.5%;
+        font-size: 14.5px;
+    }
+    header section#second .wrapper .col-2 .form form p {
+        font-size: 10px;
+    }
+    header section#second .wrapper .col-2 .form .phone div p {
+        font-size: 17px;
+    }
+
+    header section#second .wrapper .col-2 .form .submit input {
+        font-size: 10px;
+    }
+
+
+
+    
+
+
+
+
+
+    #events {
+        margin-top: 769px;
+    }
+    #events .events .event .wrapper .top-right-menu .left, #events .events .event .wrapper .top-right-menu .right {
+        padding: 4px 0 0;
+    }
+    #events .events .event .wrapper .top-right-menu .right a div {
+        padding: 6px 16px;
+        margin-left: 24px;
+    }
+
+    #events .events .event .wrapper .label h4 {
+        font-size: 21px;
+    }
+
+
+    #events .events .event .wrapper main h1 {
+        font-size: 2rem;
+        padding-right: 5%;
+    }
+    #events .events .event .wrapper main h1 span {
+        font-size: 2.4rem;
+    }
+    #events .events .event .wrapper main .para {
+        font-size: 15px;
+        padding-right: 5%;
+    }
+    #events .events .event .wrapper aside .row {
+        padding-left: 12px;
+    }
+    #events .events .event .wrapper main > * {
+        margin-bottom: 27px;
+    }
+    #events .events .event .wrapper aside .row h4 {
+        margin-left: 12px;
+        font-size: 16px;
+    }
+    #events .events .event .wrapper aside .row .info {
+        font-size: 10px;
+        line-height: 18px;
+        padding-left: 0;
+    }
+    #events .events .event .wrapper .ticket .btn a p {
+        padding: 12px 24px;
+        font-size: 12px;
+    }
+
+
+
+
+
+
+
+
+    #events #others .header .headings h1 {
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+        padding-right: 24px;
+    }
+
+    #events #others .sections section main .col-2 .bottom-menu .left {
+        padding: 0;
+    }
+    #events #others .sections section main .col-2 .bottom-menu .left a div {
+        padding: 0;
+    }
+
+    #events #others .sections section main .col-3 .row:last-child {
+        padding-left: 3%;
+    }
+    #events #others .sections section main .col-3 h4 {
+        margin-left: 12px;
+        font-size: 18px;
+    }
+    #events #others .sections section main .col-3 .info {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+
+    #events #others .sections section main .col-3 .btn {
+        font-size: 12px;
+        margin-top: 36px;
+    }
+    #events #others .sections section main .col-3 .btn a p {
+        padding: 12px 27px;
+    }
+
+
+
+
+
+
+
+
+
+
+    #socialPosts {
+        margin: 0;
+    }
+    #socialPosts .header h2 {
+        font-size: 18px;
+    }
+    #socialPosts .header .nav p {
+        font-size: 18px;
+    }
+    #socialPosts .preview-info .col-2 .stories div {
+        margin-right: 2px;
+    }
+
+
+
+
+    #socialPosts .posts .post .status {
+        padding: 18px;
+        font-size: 18px;
+    }
+    #socialPosts .posts .post .status p img {
+        width: 15px;
+    }
+    #socialPosts .posts .post .status .vert {
+        height: 18px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    #contact section.first .wrapper {
+        padding: 16px;
+    }
+    #contact section.first h1 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    #contact section.first .btn {
+        font-size: 12px;
+    }
+    #contact section.first .btn a p {
+        padding: 18px 54px;
+    }
+
+
+
+
+
+
+    #contact section.second main .col-1 {
+        padding: 15px 0 0;
+    }
+    #contact section.second main .col-1 .form {
+        width: 100%;
+    }
+    #contact section.second main .col-1 .header {
+        padding: 9px;
+    }
+    #contact section.second main .col-1 .header p {
+        font-size: 9px;
+    }
+    #contact section.second main .col-1 .form .inputs {
+        padding: 8px 8px 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 280px) {
+    header section#first main h1 {
+        font-size: 21px;
+        line-height: 27px;
+    }
+
+
+
+    header section#second {
+        top: 120%;
+    }
+    header section#second .wrapper .col-1 h1 {
+        font-size: 27px;
+        line-height: 36px;
+    }
+    header section#second .wrapper .col-1 p {
+        font-size: 12px;
+    }
+    header section#second .wrapper .col-1 .para-2 {
+        line-height: 18px;
+    }
+
+    header section#second .wrapper .col-2 .header {
+        padding: 15px;
+    }
+    header section#second .wrapper .col-2 .header p {
+        font-size: 10px;
+    }
+
+    header section#second .wrapper .col-2 .form .inputs {
+        padding: 8px 15px 0;
+    }
+    header section#second .wrapper .col-2 .form form p {
+        font-size: 10px;
+    }
+    header section#second .wrapper .col-2 .form input {
+        padding: 8px 5.5%;
+        font-size: 10.5px;
+    }
+    header section#second .wrapper .col-2 .form .phone div p {
+        font-size: 17px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #events {
+        margin-top: 609px;
+    }
+    #events .events .event .wrapper {
+        padding: 27px 0;
+        grid-template-areas:
+            "topNav topNav"
+            "label label"
+            "main main"
+            "sideInfo sideInfo"
+            "ticket ticket"
+            "nav-btns nav-btns";
+    }
+    #events .events .event .wrapper .top-right-menu .left div {
+        width: 27px;
+        height: 27px;
+        margin: 0 2px;
+    }
+    #events .events .event .wrapper .top-right-menu .right a div {
+        padding: 6px 15px;
+        margin-left: 8px;
+        font-size: 10px;
+    }
+
+    #events .events .event .wrapper main h1 {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+    #events .events .event .wrapper main .para {
+        font-size: 12px;
+        padding-right: 0%;
+        line-height: 24px;
+    }
+
+    #events .events .event .wrapper .nav-btns {
+        padding-top: 24px;
+    }
+    #events .events .event .wrapper .nav-btns > div div {
+        margin-left: 8px;
+    }
+
+
+
+    #events #others .header {
+        margin: 48px 0 24px;
+        height: auto;
+        width: auto;
+    }
+    #events #others .header .headings h1 {
+        font-size: 1rem;
+        line-height: 1.4rem;
+        padding-right: 15px;
+    }
+    #events #others .header .nav div {
+        width: 27px;
+        height: 27px;
+    }
+
+    #events #others .sections section main .col-2 .para {
+        padding-right: 0;
+    }
+    #events #others .sections section main .col-2 .para p {
+        line-height: 21px;
+        font-size: 12px;
+    }
+
+    #events #others .sections section main .col-2 h1 {
+        font-size: 18px;
+    }
+
+    #events #others .sections section main .col-2 .bottom-menu .left a div {
+        width: 27px;
+        height: 27px;
+        margin: 0 2px;
+        padding: 6px 2px;
+    }
+    #events #others .sections section main .col-2 .bottom-menu .right a div p {
+        font-size: 9px;
+    }
+    #events #others .sections section main .col-2 .bottom-menu .right a:last-child div {
+        margin-left: 8px;
+    }
+
+    #events #others .sections section main .col-3 .con {
+        flex-wrap: wrap;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #socialPosts .header .nav p {
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+    #socialPosts .header .nav p:last-child {
+        margin-left: 24px;
+    }
+
+
+    #socialPosts .preview-info .col-2 .status-views div {
+        padding-right: 8px;
+    }
+    #socialPosts .preview-info .col-2 .status-views div h4 {
+        font-size: 15px;
+    }
+    #socialPosts .preview-info .col-2 .status-views div p {
+        font-size: 9px;
+    }
+
+
+    #socialPosts .preview-info .col-2 .stories {
+        justify-content: flex-end;
+        flex-wrap: wrap;
+    }
+    #socialPosts .preview-info .col-2 .stories div {
+        margin-top: 8px;
+    }
+
+    #socialPosts .posts .post .status {
+        padding: 18px;
+        font-size: 18px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    #contact section.first h1 {
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+    }
+    #contact section.first .btn {
+        font-size: 10px;
+    }
+    #contact section.first .btn a p {
+        padding: 15px 36px;
+    }
+
+
+
+    #contact section.second main .col-2 {
+        justify-content: flex-end;
+        text-align: center;
+        padding: 6px;
+    }
+    #contact section.second main .col-2 h1 {
+        font-size: 18px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    footer.section-1 .col-1 .para {
+        padding: 0 15px;
+    }
+    footer.section-1 .col-2 > div {
+        margin: 0 4px;
+    }
+    footer.section-1 h4 {
+        font-size: 8px;
+    }
+
+
+
+    footer.section-2 p {
+        font-size: 12px;
+    }
+    footer.section-2 i {
+        margin: 0 12px;
+        font-size: 19px;
+    }
+    footer.section-2 i.instagram {
+        padding: 1.5px 2px 1px;
+        font-size: 15px;
+        margin-bottom: 6px;
+    }
+}

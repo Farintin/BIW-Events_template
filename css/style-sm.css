@@ -1,0 +1,326 @@
+@media (max-width: 680px) {
+    .wrapper {
+        width: 90%;
+    }
+
+
+
+
+
+
+    header nav {
+    	background-color: #8781e8;
+    }
+    header nav .wrapper {
+        flex-direction: column;
+        padding: 12px 0 24px;
+    }
+    header nav.closed-sm .wrapper {
+        padding: 12px 0;
+    }
+
+    header nav .wrapper .logo {
+        align-self: stretch;
+        display: flex;
+        justify-content: space-between;
+    }
+    header nav .wrapper .logo a {
+        display: flex;
+        align-items: center;
+    }
+    header nav .wrapper #mobileNavToggler {
+        display: flex;
+    }
+    header nav .wrapper #mobileNavToggler.close .bar {
+        position: absolute;
+    }
+    header nav .wrapper #mobileNavToggler.close .bar.bar-1 {
+        width: 100%;
+        transform: rotatez(45deg);
+    }
+    header nav .wrapper #mobileNavToggler.close .bar.bar-2 {
+        width: 100%;
+        display: none;
+    }
+    header nav .wrapper #mobileNavToggler.close .bar.bar-3 {
+        width: 100%;
+        transform: rotatez(-45deg);
+    }
+
+    header nav .wrapper .links-segment {
+        flex-direction: column;
+    }
+    header nav.closed-sm .wrapper .links-segment {
+        display: none;
+    }
+    header nav .wrapper a.nav-link {
+        align-self: center;
+    }
+
+
+
+
+
+
+
+
+    header #bg {
+        height: 120vh;
+    }
+    header section#first {
+        top: 25%;
+    }
+
+
+
+    header section#second {
+        top: 125%;
+    }
+    header section#second .wrapper {
+        -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    }
+    header section#second .wrapper .col-1 {
+        text-align: center;
+    }
+    header section#second .wrapper .col-1 .para-2 {
+        padding-right: 0;
+    }
+
+    header section#second .wrapper .col-2 .form {
+        width: 100%;
+        max-width: 420px;
+        margin-right: auto;
+    }
+
+
+
+
+
+
+
+    #events {
+        margin-top: 669px;
+    }
+    #events .events .event {
+        background-size: 150%;
+        background-position-x: center;
+    }
+    #events .events .event .wrapper {
+        padding: 48px 0;
+        grid-template-columns: 70% auto;
+        grid-template-areas:
+            "topNav topNav"
+            "label label"
+            "main main"
+            "sideInfo sideInfo"
+            "ticket nav-btns";
+    }
+    #events .events .event .wrapper .top-right-menu {
+        flex-wrap: wrap;
+    }
+    #events .events .event .wrapper .top-right-menu .left div {
+        margin: 0 4px;
+    }
+    #events .events .event .wrapper .top-right-menu .right a div {
+        margin-left: 12px;
+    }
+    #events .events .event .wrapper .label {
+        padding: 12px 0;
+    }
+
+
+    #events .events .event .wrapper main, #events .events .event .wrapper aside, #events .events .event .wrapper main *, #events .events .event .wrapper aside * {
+        margin: 0;
+        padding: 0;
+    }
+    #events .events .event .wrapper main > * {
+        margin-bottom: 48px;
+    }
+    #events .events .event .wrapper main .para {
+        padding-right: 10%;
+    }
+
+    #events .events .event .wrapper aside {
+        flex-direction: row;
+    }
+    #events .events .event .wrapper aside > div {
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+    }
+    #events .events .event .wrapper aside .row {
+        text-align: right;
+        padding-left: 36px;
+    }
+    #events .events .event .wrapper aside .row h4 {
+        margin-left: 32px;
+    }
+    #events .events .event .wrapper aside .row .info {
+        padding-left: 0;
+    }
+
+    #events .events .event .wrapper .nav-btn > div {
+        align-items: flex-end;
+    }
+
+
+
+    #events #others .sections section main {
+        display: block;
+    }
+    #events #others .sections section main .col-1 img {
+        width: 94%;
+    }
+    #events #others .sections section main .col-2 {
+        padding-left: 0;
+    }
+    #events #others .sections section main .col-2 .bottom-menu {
+        justify-content: flex-end;
+    }
+    #events #others .sections section main .col-3 .con {
+        display: flex;
+        justify-content: flex-end;
+    }
+    #events #others .sections section main .col-3 h4 {
+        margin-left: 48px;
+    }
+    #events #others .sections section main .col-3 .btn {
+        font-size: 18px;
+        margin-top: 48px;
+    }
+    #events #others .sections section main .col-3 .btn a p {
+        padding: 16px 32px;
+    }
+
+
+
+
+
+
+
+
+    #socialPosts .header .nav p {
+        font-size: 27px;
+        letter-spacing: 4px;
+    }
+    #socialPosts .header .nav p:last-child {
+        margin-left: 36px;
+    }
+    #socialPosts .preview-info {
+        display: block;
+        margin-top: 36px;
+    }
+    #socialPosts .preview-info .col-2 {
+        padding: 8px 0;
+    }
+    #socialPosts .preview-info .col-2 > * {
+        margin: 8px 0;
+    }
+    #socialPosts .preview-info .col-2 .para {
+        margin: 8px 0;
+    }
+    #socialPosts .preview-info .col-2 .stories {
+        justify-content: start;
+    }
+    #socialPosts .preview-info .col-2 .stories div {
+        margin-right: 8px;
+    }
+    #socialPosts .preview-info .col-3 .btn {
+        margin-top: 16px;
+    }
+
+
+
+    #socialPosts .posts {
+        display: block;
+    }
+    #socialPosts .posts .post {
+        margin-bottom: 24px;
+    }
+    #socialPosts .posts .post .status {
+        padding: 24px;
+        font-size: 27px;
+    }
+    #socialPosts .posts .post .status p img {
+        width: 24px;
+    }
+    #socialPosts .posts .post .status .vert {
+        height: 27px;
+        margin: 0 16px 2px;
+    }
+    #socialPosts .posts .post .status .vert {
+        width: 2px;
+    }
+
+
+
+
+
+
+
+
+
+    #contact section.second main {
+        grid-template-columns: 100%;
+        grid-template-areas:
+            "col-2"
+            "col-1";
+    }
+
+    #contact section.second main .col-1 {
+        padding: 16px;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    #contact section.second main .col-2 {
+        justify-content: flex-end;
+        text-align: center;
+        padding: 16px;
+        }
+    #contact section.second main .col-2 .para-2 {
+        padding-right: 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    
+    footer.section-1 .wrapper {
+        display: block;
+        text-align: center;
+    }
+
+    footer.section-1 .col-1 .para {
+        padding: 0 48px;
+    }
+
+    footer.section-1 .col-2 {
+        justify-content: center;
+        padding-top: 27px;
+    }
+    footer.section-1 .col-2 > div {
+        margin: 0 8px;
+    }
+
+
+
+    footer.section-2 .wrapper {
+        padding: 18px 0;
+        flex-direction: column;
+    }
+    footer.section-2 div {
+        margin-top: 12px;
+    }
+    footer.section-2 i {
+        margin: 0 18px;
+    }
+}
